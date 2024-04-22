@@ -11,4 +11,4 @@ To be able to work with text as well as images, we can use the same model, but w
 
 So here are the basic steps visualized:
 
-![CookGPT_ARCHITECTURE](https://github.com/Tobander/MLProject-GPTVision/assets/45336196/faa1e753-eec3-497e-a85e-f05ae471050b)
+![CookGPT_ARCHITECTURE](https://github.com/Tobander/MLProject-GPTVision/assets/45336196/61ab0080-980e-407c-afac-3462dcb5982f)
