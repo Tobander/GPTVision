@@ -12,3 +12,12 @@ To be able to work with text as well as images, we can use the same model, but w
 So here are the basic steps visualized:
 
 ![CookGPT_ARCHITECTURE](https://github.com/Tobander/MLProject-GPTVision/assets/45336196/472b6770-40b0-4557-b15d-43f4d6269e8e)
+
+# 🟢 2. Building the Front-End
+We start with building the frontend to out application. Once again we will use FLASK for this. The difficulty in this project is that there are different OpenAI endpoints for text and images. For text we will use a `text-generation` model and for image we will use a `vision` model. 
+
+Then we also have to think about the flow of information. Usually the user will start by telling the app what he wants to cook and then upload a photo what ingredients he already has. So we need to remember text and image and give a response based on both.
+
+We will also need two different FLASK routes. One that handels the text input and one that handles the image input of the user. This one also has to temporary store the image of the user where the model has access to.
+
+📓 **Notebook:** You can find the complete code in `frontend.ipynb`.
