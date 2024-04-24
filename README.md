@@ -21,3 +21,10 @@ Then we also have to think about the flow of information. Usually the user will 
 We will also need two different FLASK routes. One that handels the text input and one that handles the image input of the user. This one also has to temporary store the image of the user where the model has access to.
 
 📓 **Notebook:** You can find the complete code in `frontend.ipynb`.
+
+# 🟢 3. Building the Website
+Next thing we need to do, is creating the layout for our app. Once again we basically try to mimic the ChatGPT layout. So there is a **sidebar** and a **main-content**. In this main content we start with a welcome message and logo that we hide after the user sent an initial message. Then we have a chat-area and we also display an **upload** button if appropriate (when the user wants ti upload an image). At the bottom we have an **input-area** where the user types in his messages.
+
+So once again, a pretty simple but clean and functional layout for our app.
+
+📓 **Template:** You can find the *html* template in the templates folder `index.html`.
