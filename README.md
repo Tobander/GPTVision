@@ -23,8 +23,13 @@ We will also need two different FLASK routes. One that handels the text input an
 📓 **Notebook:** You can find the complete code in `frontend.ipynb`.
 
 # 🟢 3. Building the Website
-Next thing we need to do, is creating the layout for our app. Once again we basically try to mimic the ChatGPT layout. So there is a **sidebar** and a **main-content**. In this main content we start with a welcome message and logo that we hide after the user sent an initial message. Then we have a chat-area and we also display an **upload** button if appropriate (when the user wants ti upload an image). At the bottom we have an **input-area** where the user types in his messages.
+Next thing we need to do, is creating the layout for our app. Once again we basically try to mimic the ChatGPT layout. So there is a **sidebar** and a **main-content**. In this main content we start with a welcome message and logo that we hide after the user sent an initial message. Then we have a chat-area and we also display an **upload** button if appropriate (when the user wants to upload an image). At the bottom we have an **input-area** where the user types in his messages.
 
 So once again, a pretty simple but clean and functional layout for our app.
 
 📓 **Template:** You can find the *html* template in the templates folder `index.html`.
+
+# 🟢 4. Building the JavaScript
+We will once again use JavaScript to dynamically add or hide content. When loading the website we show the **welcome-message** div tag. We hide this area as soon as the user initially sends a message. When the user can upload an image we show the **upload-area** div-tag which contains image selection and upload button. After the user uploads an image, we hide this area again. The conversation between user and chatbot will be shown in the **chat-area** div-tag.
+
+📓 **Template:** You can find the *JavaScript* code in the static/js folder `chat.js`.
